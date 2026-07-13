@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    background: linear-gradient(to bottom, rgb(9, 14, 37), rgb(32, 13, 107));
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header {
+    padding: 25px;
+}
+.head1 {
+    padding: 2px;
+    font-size: 60px;
+}
+.head2 {
+    padding: 2px;
+    font-size: 60px;
+    color: rgba(81, 226, 81, 0.979);
+    font-weight: 700;
+}
+.head3 {
+    padding: 0px 2px;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 20px;
+}
