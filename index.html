@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header">
         <div class="head1">Generate a</div>
         <div class="head2">Random Password</div>
         <div class="head3">Never use an insecure password again.</div>
     </div>
+    <div class="sep1"></div>
     <div class="main">
-        <div class="plen"></div>
-        <div class="tsym"></div>
-        <div class="genp"></div>
+        <div class="genp">
+            <button class="gen" onclick="generatePassword()">Generate Password</button>
+        </div>
+        <div class="plen">
+            <label>Password Length:</label>
+            <input type="number" id="lengthValue" min="4" max="50" value="12">
+        </div>
+        <div class="tsym">
+            <label>
+                <input type="checkbox" id="numbers" checked>
+                Include Numbers (0-9)
+            </label>
+            <div></div>
+            <label>
+                <input type="checkbox" id="uppercase" checked>
+                Include Uppercase (A-Z)
+            </label>
+            <div></div>
+            <label>
+                <input type="checkbox" id="symbols" checked>
+                Include Symbols (!@#$%^&)
+            </label>
+        </div>
     </div>
+    <div class="sep1"></div>
     <div class="footer">
-        <div class="p1"></div>
-        <div class="p2"></div>
+        <div class="p1">Ab@ac3osjd%*csa9i</div>
+        <div class="p2">fikuy!2e8q3y^28b</div>
     </div>
 </body>
+
 </html>
